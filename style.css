@@ -20,3 +20,8 @@
 .unselected-cell {
     background-color: white;
 }
+
+#grid-value {
+    padding: 4px;
+    width: 200px;
+}
