@@ -1,0 +1,22 @@
+.grid-table {
+    border: 1px solid black;
+}
+
+.grid-cell {
+    border: 1px solid #aaa;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.footer {
+    color: #ddd;
+}
+
+.selected-cell {
+    background-color: black;
+}
+
+.unselected-cell {
+    background-color: white;
+}
