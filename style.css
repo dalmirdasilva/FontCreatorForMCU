@@ -9,6 +9,12 @@
     cursor: pointer;
 }
 
+.header {
+    font-size: 20px;
+    padding: 8px 0px;
+    
+}
+
 .footer {
     color: #ddd;
 }
@@ -24,4 +30,9 @@
 #grid-value {
     padding: 4px;
     width: 200px;
+}
+
+textarea {
+    border: 1px solid #aaa;
+    height: 100px;
 }
