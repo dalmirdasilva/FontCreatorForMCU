@@ -1,21 +1,22 @@
 <div class="header">Font cretor for MCUs</div>
-
 <div>Font chars:</div>
-<div id="grid-holder"></div>
+<div id="chars-holder">
+    <table border="0" cellspacing="0" cellpadding="0">
+        <tr id="chars-holder-tr"></tr>
+    </table>
+</div>
 
+<div><button id="add-char-to-grid">add char</button></div>
 <div>Font code:</div>
-<textarea id="grid-value"></textarea>
-
+<div><textarea id="grid-value">0x00,0x03,0x00,0x03,0x00,0x14,0x7f,0x14,0x7f,0x14</textarea></div>
 <link rel="stylesheet" type="text/css" href="style.css">
 <script src="jquery.js" type="text/javascript"></script>
 <script src="creator.js" type="text/javascript"></script>
 <script src="UI.js" type="text/javascript"></script>
 
 <script type="text/javascript">
-
     var creator = new Creator();
     var ui = new UI(creator);
-    ui.init();
-    
+    ui.init(5, 8);
 </script>
 <div class="footer">Written by Dalmir da Silva &lt;dalmirdasilva@gmail.com&gt;</div>

@@ -1,3 +1,11 @@
+* {
+    font-family: ubuntu mono;
+}
+
+.grid-holder {
+    margin-right: 6px;
+}
+
 .grid-table {
     border: 1px solid black;
 }
@@ -12,7 +20,8 @@
 .header {
     font-size: 20px;
     padding: 8px 0px;
-    
+    border-bottom: 1px solid #aaa;
+    margin-bottom: 12px;
 }
 
 .footer {
@@ -29,10 +38,12 @@
 
 #grid-value {
     padding: 4px;
-    width: 200px;
-}
-
-textarea {
     border: 1px solid #aaa;
     height: 100px;
+    width: 100%;
+}
+
+.close-box {
+    font-size: 10px;
+    text-align: right;
 }
